@@ -4,6 +4,11 @@
 
 This is a simple implementation of the classic Tic-Tac-Toe game in JavaScript. The game is played on a 3x3 grid where two players take turns marking their symbol (❌ or ⭕) in an attempt to get three of their symbols in a row, column, or diagonal.
 
+## Live Version
+
+You can play the game live [here](https://tic-tac-toe-lemon-one.vercel.app/).
+
+
 ![image](https://github.com/thexsharma30/Tic-Tac-Toe/assets/141563537/12b9e8c3-5ff1-4d6e-b3ea-f5fdb1c5cd50)
 
 ## Features
