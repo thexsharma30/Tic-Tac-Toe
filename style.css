@@ -1,0 +1,60 @@
+body {
+    background-color: #333; /* Dark gray background */
+    text-align: center;
+    color: #fff; /* White text color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Lighting effect */
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Center horizontally */
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2); /* Light gray shadow */
+    margin: 0 0.75vmin; /* Adjust margin for spacing between boxes */
+    font-size: 8vmin;
+    color: #fff; /* White text color */
+    background-color: #800000; /* Dark red box background */
+}
+
+#newBtn,
+#Reset {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #800000; /* Dark red button background */
+    color: #fff; /* White text color */
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem; /* Add some margin to separate from other elements */
+}
+
+#msg {
+    color: #fff; /* White text color */
+    font-size: 8vmin;
+}
+
+.Msg-container {
+    height: 30vmin;
+    margin-top: 2rem; /* Add margin to separate from other elements */
+}
+
+.hide {
+    display: none;
+}
