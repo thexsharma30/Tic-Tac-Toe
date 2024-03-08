@@ -3,6 +3,8 @@ body {
     text-align: center;
     color: #fff; /* White text color */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Lighting effect */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 .container {
@@ -10,6 +12,7 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
 }
 
 .game {
@@ -42,13 +45,15 @@ body {
     color: #fff; /* White text color */
     border-radius: 1rem;
     border: none;
-    margin-top: 1rem; /* Add some margin to separate from other elements */
+    margin-top: 0.5rem; /* Add some margin to separate from other elements */
+    margin-bottom: 1.5rem; /* Add some margin to separate from other elements */
 }
 
 #msg {
     color: #fff; /* White text color */
     font-size: 8vmin;
     margin-top: 3rem; /* Adjusted margin for spacing from the game board */
+    margin-bottom: 0.5rem; /* Adjusted margin for spacing from the game board */
 }
 
 .Msg-container {
@@ -76,7 +81,6 @@ body {
 
     #msg {
         font-size: 6vmin;
-        margin-top: 2.5rem; /* Adjusted margin for spacing from the game board */
     }
 
     .Msg-container {
@@ -85,7 +89,8 @@ body {
 
     #newBtn,
     #Reset {
-        margin-top: 0.5rem; /* Adjust margin to separate from the game board */
+        margin-top: 0.3rem; /* Adjust margin to separate from the game board */
+        margin-bottom: 0.5rem; /* Adjust margin to separate from the game board */
     }
 }
 
@@ -104,7 +109,6 @@ body {
 
     #msg {
         font-size: 5vmin;
-        margin-top: 2rem; /* Adjusted margin for spacing from the game board */
     }
 
     .Msg-container {
@@ -113,6 +117,7 @@ body {
 
     #newBtn,
     #Reset {
-        margin-top: 0.3rem; /* Adjust margin to separate from the game board */
+        margin-top: 0.2rem; /* Adjust margin to separate from the game board */
+        margin-bottom: 0.3rem; /* Adjust margin to separate from the game board */
     }
 }
