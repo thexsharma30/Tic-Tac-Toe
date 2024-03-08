@@ -48,6 +48,7 @@ body {
 #msg {
     color: #fff; /* White text color */
     font-size: 8vmin;
+    margin-top: 3rem; /* Adjusted margin for spacing from the game board */
 }
 
 .Msg-container {
@@ -57,4 +58,61 @@ body {
 
 .hide {
     display: none;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    .game {
+        height: 50vmin;
+        width: 50vmin;
+    }
+
+    .box {
+        height: 15vmin;
+        width: 15vmin;
+        font-size: 6vmin;
+        margin: 0 0.5vmin; /* Adjust margin for spacing between boxes */
+    }
+
+    #msg {
+        font-size: 6vmin;
+        margin-top: 2.5rem; /* Adjusted margin for spacing from the game board */
+    }
+
+    .Msg-container {
+        height: 20vmin;
+    }
+
+    #newBtn,
+    #Reset {
+        margin-top: 0.5rem; /* Adjust margin to separate from the game board */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .game {
+        height: 40vmin;
+        width: 40vmin;
+    }
+
+    .box {
+        height: 12vmin;
+        width: 12vmin;
+        font-size: 5vmin;
+        margin: 0 0.4vmin; /* Adjust margin for spacing between boxes */
+    }
+
+    #msg {
+        font-size: 5vmin;
+        margin-top: 2rem; /* Adjusted margin for spacing from the game board */
+    }
+
+    .Msg-container {
+        height: 15vmin;
+    }
+
+    #newBtn,
+    #Reset {
+        margin-top: 0.3rem; /* Adjust margin to separate from the game board */
+    }
 }
